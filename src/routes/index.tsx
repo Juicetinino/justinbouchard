@@ -8,8 +8,8 @@ const BlogGrid = lazy(() => import('@/pages/blog/grid/index'))
 const BlogSingle = lazy(() => import('@/pages/blog/single/index'))
 const Contact = lazy(() => import('@/pages/contact/index'))
 const HomeImage = lazy(() => import('@/pages/home/image/index'))
-const HomeLight = lazy(() => import('@/pages/home/light/index'))
-const HomeDark = lazy(() => import('@/pages/home/dark/index'))
+// const HomeLight = lazy(() => import('@/pages/home/light/index'))
+// const HomeDark = lazy(() => import('@/pages/home/dark/index'))
 const PortfolioMasonry = lazy(() => import('@/pages/portfolio/masonry/index'))
 const PortfolioGrid = lazy(() => import('@/pages/portfolio/grid/index'))
 const Service = lazy(() => import('@/pages/service/index'))
@@ -64,16 +64,16 @@ const homePages: RoutesProps[] = [
     name: 'HomeImage',
     element: <HomeImage />,
   },
-  {
-    path: '/home/light',
-    name: 'HomeLight',
-    element: <HomeLight />,
-  },
-  {
-    path: '/home/dark',
-    name: 'HomeDark',
-    element: <HomeDark />,
-  },
+  // {
+  //   path: '/home/light',
+  //   name: 'HomeLight',
+  //   element: <HomeLight />,
+  // },
+  // {
+  //   path: '/home/dark',
+  //   name: 'HomeDark',
+  //   element: <HomeDark />,
+  // },
   {
     path: '/portfolio/masonry',
     name: 'PortfolioMasonry',
