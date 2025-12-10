@@ -11,10 +11,10 @@ const Hero = () => {
           <Row className="justify-content-center">
             <Col lg={8}>
               <div className="text-center text-white">
-                <h1 className="text-uppercase display-4 font-weigh-bold ls-4">Hello, I am Joognu.</h1>
+                <h1 className="text-uppercase display-4 font-weigh-bold ls-4">Justin Bouchard</h1>
                 <p className="mt-4">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Excepteur sint occaec non anim
-                  id est laborum.
+                  Hi! I'm Justin, a Digital Arts and Computer Science student. <br>
+                  </br>Here are some of the projects I created.
                 </p>
                 <div className="border-bottom w-25 mx-auto mt-4 pt-2" />
                 <div className="mt-4 pt-2">

@@ -22,7 +22,7 @@ const Contact = () => {
                 <div className="services-img">
                   <Image width={50} height={50} className="img-fluid" src={mobilepay} alt="" />
                 </div>
-                <h6 className="mt-4">+001 406-471-0400</h6>
+                <h6 className="mt-4">+1 (802) 624-0064</h6>
               </div>
             </Col>
             <Col lg={4}>
@@ -30,7 +30,7 @@ const Contact = () => {
                 <div className="services-img">
                   <Image width={50} height={50} className="img-fluid" src={earth} alt="" />
                 </div>
-                <h6 className="mt-4">Candiarity@joapide.com</h6>
+                <h6 className="mt-4">jbouchard18@outlook.com</h6>
               </div>
             </Col>
           </Row>
