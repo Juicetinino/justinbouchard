@@ -48,7 +48,7 @@ const Detail = () => {
                 </div>
 
                 <Link to="https://drive.google.com/file/d/1KSyRsdvXB1YZAllj99E79pVAzZFvSznN/view?usp=sharing" className="btn btn-dark-custom">
-                  View my Resume
+                  View my Resume!
                 </Link>
 
 
