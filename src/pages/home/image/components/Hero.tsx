@@ -1,6 +1,6 @@
-import { Icon } from '@iconify/react'
+// import { Icon } from '@iconify/react'
 import { Col, Container, Row } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (

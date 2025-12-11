@@ -19,7 +19,7 @@ const menuData: MenuItem[] = [
     //   { title: 'Home Dark', href: '/home/dark' },
     // ],
   },
-  { title: 'About', href: '/about' },
+  { title: 'About', href: '/blog/single' },
   // {
   //   title: 'Portfolio',
   //   href: '#portfolio',

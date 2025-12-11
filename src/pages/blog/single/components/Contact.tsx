@@ -1,6 +1,6 @@
-import earth from '@/assets/images/icons/earth.png'
-import mobilepay from '@/assets/images/icons/mobilepay.png'
-import spaceship from '@/assets/images/icons/spaceship.png'
+import cloudmessage from '@/assets/images/icons/cloudmessage.png'
+import phoneimport from '@/assets/images/icons/phoneimport.png'
+import linkedin from '@/assets/images/icons/linkedin.png'
 import { Col, Container, Image, Row } from 'react-bootstrap'
 
 const Contact = () => {
@@ -10,27 +10,30 @@ const Contact = () => {
         <Container>
           <Row>
             <Col lg={4}>
+
               <div className="text-center mt-4">
                 <div className="services-img">
-                  <Image width={50} height={50} src={spaceship} alt="" />
+                  <Image width={50} height={50} src={linkedin} alt="" />
                 </div>
-                <h6 className="mt-4">4514 West Street Helena</h6>
+                <a target="blank_" href="https://www.linkedin.com/in/justinpbouchard/">
+                  <h6 className="mt-4">My Linkedin</h6>
+                </a>
               </div>
             </Col>
             <Col lg={4}>
               <div className="text-center mt-4">
                 <div className="services-img">
-                  <Image width={50} height={50} src={mobilepay} alt="" />
+                  <Image width={50} height={50} src={phoneimport} alt="" />
                 </div>
-                <h6 className="mt-4">+001 406-471-0400</h6>
+                <h6 className="mt-4">+1 (802) 624-0064</h6>
               </div>
             </Col>
             <Col lg={4}>
               <div className="text-center mt-4">
                 <div className="services-img">
-                  <Image width={50} height={50} src={earth} alt="" />
+                  <Image width={50} height={50} src={cloudmessage} alt="" />
                 </div>
-                <h6 className="mt-4">Candiarity@joapide.com</h6>
+                <h6 className="mt-4">jbouchard18@outlook.com</h6>
               </div>
             </Col>
           </Row>

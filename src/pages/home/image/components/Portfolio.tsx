@@ -83,10 +83,10 @@ const Portfolio = () => {
               <Col lg={4} className="p-4 grid-item modeling">
                 <div className="item-box">
                   <GlightBox className="mfp-image" href={modeling1} title="Project Name">
-                    <Image className="item-container img-fluid" src={modeling1} alt="A board game cover" />
+                    <Image className="item-container img-fluid" src={modeling1} alt="An animated tree scene" />
                     <div className="item-mask">
                       <div className="item-caption">
-                        <h6 className="text-dark mt-1 text-uppercase">Board Game Cover</h6>
+                        <h6 className="text-dark mt-1 text-uppercase">A Secret Garden</h6>
                         <p className="text-dark mb-0">2024</p>
                       </div>
                     </div>
@@ -94,14 +94,28 @@ const Portfolio = () => {
                 </div>
               </Col>
 
-              <Col lg={4} className="p-4 grid-item modeling">
+              <Col lg={4} className="p-4 grid-item design">
                 <div className="item-box">
-                  <GlightBox className="mfp-image" href={modeling2} title="Project Name">
-                    <Image className="item-container img-fluid" src={modeling2} alt="A 3D modeled cabin desk scene" />
+                  <GlightBox className="mfp-image" href={design11} title="Project Name">
+                    <Image className="item-container img-fluid" src={design11} alt="A protest style poster" />
                     <div className="item-mask">
                       <div className="item-caption">
-                        <h6 className="text-dark mt-1 text-uppercase">Cabin Desk</h6>
+                        <h6 className="text-dark mt-1 text-uppercase">Protest Style Poster</h6>
                         <p className="text-dark mb-0">2024</p>
+                      </div>
+                    </div>
+                  </GlightBox>
+                </div>
+              </Col>
+
+              <Col lg={4} className="p-4 grid-item video">
+                <div className="item-box">
+                  <GlightBox className="mfp-image" href={video4} title="Project Name">
+                    <Image className="item-container img-fluid" src={video4} alt="A guy holding a toque on his head" />
+                    <div className="item-mask">
+                      <div className="item-caption">
+                        <h6 className="text-dark mt-1 text-uppercase">Dorm Dishes</h6>
+                        <p className="text-dark mb-0">2023</p>
                       </div>
                     </div>
                   </GlightBox>
@@ -122,6 +136,20 @@ const Portfolio = () => {
                 </div>
               </Col>
 
+              <Col lg={4} className="p-4 grid-item design">
+                <div className="item-box">
+                  <GlightBox className="mfp-image" href={design7} title="Project Name">
+                    <Image className="item-container img-fluid" src={design7} alt="An app icon for a keyboard extension" />
+                    <div className="item-mask">
+                      <div className="item-caption">
+                        <h6 className="text-dark mt-1 text-uppercase">App Icon for a Keyboard Extension</h6>
+                        <p className="text-dark mb-0">2025</p>
+                      </div>
+                    </div>
+                  </GlightBox>
+                </div>
+              </Col>
+
               <Col lg={4} className="p-4 grid-item modeling">
                 <div className="item-box">
                   <GlightBox className="mfp-image" href={modeling4} title="Project Name">
@@ -136,6 +164,22 @@ const Portfolio = () => {
                 </div>
               </Col>
 
+              <Col lg={4} className="p-4 grid-item design">
+                <div className="item-box">
+                  <GlightBox className="mfp-image" href={design15} title="Project Name">
+                    <Image className="item-container img-fluid" src={design15} alt="A ticket for a University event" />
+                    <div className="item-mask">
+                      <div className="item-caption">
+                        <h6 className="text-dark mt-1 text-uppercase">New Knights Expo Ticket</h6>
+                        <p className="text-dark mb-0">2024</p>
+                      </div>
+                    </div>
+                  </GlightBox>
+                </div>
+              </Col>
+
+
+
               <Col lg={4} className="p-4 grid-item modeling">
                 <div className="item-box">
                   <GlightBox className="mfp-image" href={modeling5} title="Project Name">
@@ -143,6 +187,20 @@ const Portfolio = () => {
                     <div className="item-mask">
                       <div className="item-caption">
                         <h6 className="text-dark mt-1 text-uppercase">Television</h6>
+                        <p className="text-dark mb-0">2024</p>
+                      </div>
+                    </div>
+                  </GlightBox>
+                </div>
+              </Col>
+
+              <Col lg={4} className="p-4 grid-item video">
+                <div className="item-box">
+                  <GlightBox className="mfp-image" href={video1} title="Project Name">
+                    <Image className="item-container img-fluid" src={video1} alt="Three shapes on a black background" />
+                    <div className="item-mask">
+                      <div className="item-caption">
+                        <h6 className="text-dark mt-1 text-uppercase">Shape Animation</h6>
                         <p className="text-dark mb-0">2024</p>
                       </div>
                     </div>
@@ -186,6 +244,20 @@ const Portfolio = () => {
                       <div className="item-caption">
                         <h6 className="text-dark mt-1 text-uppercase">Cake Business Logo</h6>
                         <p className="text-dark mb-0">2025</p>
+                      </div>
+                    </div>
+                  </GlightBox>
+                </div>
+              </Col>
+
+              <Col lg={4} className="p-4 grid-item interactive">
+                <div className="item-box">
+                  <GlightBox className="mfp-image" href={interactive1} title="Project Name">
+                    <Image className="item-container img-fluid" src={interactive1} alt="A digital canvas that says hello" />
+                    <div className="item-mask">
+                      <div className="item-caption">
+                        <h6 className="text-dark mt-1 text-uppercase">Interractive Digital Canvas</h6>
+                        <p className="text-dark mb-0">2024</p>
                       </div>
                     </div>
                   </GlightBox>
@@ -250,20 +322,6 @@ const Portfolio = () => {
 
               <Col lg={4} className="p-4 grid-item design">
                 <div className="item-box">
-                  <GlightBox className="mfp-image" href={design7} title="Project Name">
-                    <Image className="item-container img-fluid" src={design7} alt="An app icon for a keyboard extension" />
-                    <div className="item-mask">
-                      <div className="item-caption">
-                        <h6 className="text-dark mt-1 text-uppercase">App Icon for a Keyboard Extension</h6>
-                        <p className="text-dark mb-0">2025</p>
-                      </div>
-                    </div>
-                  </GlightBox>
-                </div>
-              </Col>
-
-              <Col lg={4} className="p-4 grid-item design">
-                <div className="item-box">
                   <GlightBox className="mfp-image" href={design8} title="Project Name">
                     <Image className="item-container img-fluid" src={design8} alt="A poster for a drive-in theater" />
                     <div className="item-mask">
@@ -304,13 +362,13 @@ const Portfolio = () => {
                 </div>
               </Col>
 
-              <Col lg={4} className="p-4 grid-item design">
+              <Col lg={4} className="p-4 grid-item modeling">
                 <div className="item-box">
-                  <GlightBox className="mfp-image" href={design11} title="Project Name">
-                    <Image className="item-container img-fluid" src={design11} alt="A protest style poster" />
+                  <GlightBox className="mfp-image" href={modeling2} title="Project Name">
+                    <Image className="item-container img-fluid" src={modeling2} alt="A 3D modeled cabin desk scene" />
                     <div className="item-mask">
                       <div className="item-caption">
-                        <h6 className="text-dark mt-1 text-uppercase">Protest Style Poster</h6>
+                        <h6 className="text-dark mt-1 text-uppercase">Cabin Desk</h6>
                         <p className="text-dark mb-0">2024</p>
                       </div>
                     </div>
@@ -346,6 +404,20 @@ const Portfolio = () => {
                 </div>
               </Col>
 
+              <Col lg={4} className="p-4 grid-item video">
+                <div className="item-box">
+                  <GlightBox className="mfp-image" href={video2} title="Project Name">
+                    <Image className="item-container img-fluid" src={video2} alt="An image of a guy pointing at an animated dragon" />
+                    <div className="item-mask">
+                      <div className="item-caption">
+                        <h6 className="text-dark mt-1 text-uppercase">Dragon Animation</h6>
+                        <p className="text-dark mb-0">2024</p>
+                      </div>
+                    </div>
+                  </GlightBox>
+                </div>
+              </Col>
+
               <Col lg={4} className="p-4 grid-item design">
                 <div className="item-box">
                   <GlightBox className="mfp-image" href={design14} title="Project Name">
@@ -353,34 +425,6 @@ const Portfolio = () => {
                     <div className="item-mask">
                       <div className="item-caption">
                         <h6 className="text-dark mt-1 text-uppercase">Cake Banner</h6>
-                        <p className="text-dark mb-0">2024</p>
-                      </div>
-                    </div>
-                  </GlightBox>
-                </div>
-              </Col>
-
-              <Col lg={4} className="p-4 grid-item design">
-                <div className="item-box">
-                  <GlightBox className="mfp-image" href={design15} title="Project Name">
-                    <Image className="item-container img-fluid" src={design15} alt="A ticket for a University event" />
-                    <div className="item-mask">
-                      <div className="item-caption">
-                        <h6 className="text-dark mt-1 text-uppercase">New Knights Expo Ticket</h6>
-                        <p className="text-dark mb-0">2024</p>
-                      </div>
-                    </div>
-                  </GlightBox>
-                </div>
-              </Col>
-
-              <Col lg={4} className="p-4 grid-item interactive">
-                <div className="item-box">
-                  <GlightBox className="mfp-image" href={interactive1} title="Project Name">
-                    <Image className="item-container img-fluid" src={interactive1} alt="A digital canvas that says hello" />
-                    <div className="item-mask">
-                      <div className="item-caption">
-                        <h6 className="text-dark mt-1 text-uppercase">Interractive Digital Canvas</h6>
                         <p className="text-dark mb-0">2024</p>
                       </div>
                     </div>
@@ -418,54 +462,12 @@ const Portfolio = () => {
 
               <Col lg={4} className="p-4 grid-item video">
                 <div className="item-box">
-                  <GlightBox className="mfp-image" href={video1} title="Project Name">
-                    <Image className="item-container img-fluid" src={video1} alt="Three shapes on a black background" />
-                    <div className="item-mask">
-                      <div className="item-caption">
-                        <h6 className="text-dark mt-1 text-uppercase">Shape Animation</h6>
-                        <p className="text-dark mb-0">2024</p>
-                      </div>
-                    </div>
-                  </GlightBox>
-                </div>
-              </Col>
-
-              <Col lg={4} className="p-4 grid-item video">
-                <div className="item-box">
-                  <GlightBox className="mfp-image" href={video2} title="Project Name">
-                    <Image className="item-container img-fluid" src={video2} alt="An image of a guy pointing at an animated dragon" />
-                    <div className="item-mask">
-                      <div className="item-caption">
-                        <h6 className="text-dark mt-1 text-uppercase">Dragon Animation</h6>
-                        <p className="text-dark mb-0">2024</p>
-                      </div>
-                    </div>
-                  </GlightBox>
-                </div>
-              </Col>
-
-              <Col lg={4} className="p-4 grid-item video">
-                <div className="item-box">
                   <GlightBox className="mfp-image" href={video3} title="Project Name">
                     <Image className="item-container img-fluid" src={video3} alt="A man under a 3D modeled blanket" />
                     <div className="item-mask">
                       <div className="item-caption">
                         <h6 className="text-dark mt-1 text-uppercase">Disappear</h6>
                         <p className="text-dark mb-0">2024</p>
-                      </div>
-                    </div>
-                  </GlightBox>
-                </div>
-              </Col>
-
-              <Col lg={4} className="p-4 grid-item video">
-                <div className="item-box">
-                  <GlightBox className="mfp-image" href={video4} title="Project Name">
-                    <Image className="item-container img-fluid" src={video4} alt="A guy holding a toque on his head" />
-                    <div className="item-mask">
-                      <div className="item-caption">
-                        <h6 className="text-dark mt-1 text-uppercase">Dorm Dishes</h6>
-                        <p className="text-dark mb-0">2023</p>
                       </div>
                     </div>
                   </GlightBox>
