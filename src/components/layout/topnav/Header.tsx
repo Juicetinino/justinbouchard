@@ -11,43 +11,43 @@ interface MenuItem {
 
 const menuData: MenuItem[] = [
   {
-    title: 'Home',
-    href: '#home',
-    submenu: [
-      { title: 'Home Light', href: '/home/light' },
-      { title: 'Home Image', href: '/home/image' },
-      { title: 'Home Dark', href: '/home/dark' },
-    ],
+    title: 'Projects',
+    href: '/home/image',
+    // submenu: [
+    //   { title: 'Home Light', href: '/home/light' },
+    //   { title: 'Home Image', href: '/home/image' },
+    //   { title: 'Home Dark', href: '/home/dark' },
+    // ],
   },
-  { title: 'About', href: '/about' },
-  {
-    title: 'Portfolio',
-    href: '#portfolio',
-    submenu: [
-      { title: 'Masonry', href: '/portfolio/masonry' },
-      { title: 'Grid', href: '/portfolio/grid' },
-    ],
-  },
-  { title: 'Services', href: '/service' },
-  {
-    title: 'Blog',
-    href: '#blog',
-    submenu: [
-      { title: 'Classic', href: '/blog/classic' },
-      { title: 'Single', href: '/blog/single' },
-      { title: 'Grid', href: '/blog/grid' },
-    ],
-  },
-  { title: 'Contact', href: '/contact' },
-  {
-    title: 'Shop',
-    href: '#shop',
-    submenu: [
-      { title: 'Shop Layout', href: '/shop/layout' },
-      { title: 'Shop Details', href: '/shop/detail' },
-      { title: 'My Account', href: '/shop/account' },
-    ],
-  },
+  { title: 'About', href: '/blog/single' },
+  // {
+  //   title: 'Portfolio',
+  //   href: '#portfolio',
+  //   submenu: [
+  //     { title: 'Masonry', href: '/portfolio/masonry' },
+  //     { title: 'Grid', href: '/portfolio/grid' },
+  //   ],
+  // },
+  // { title: 'Services', href: '/service' },
+  // {
+  //   title: 'Blog',
+  //   href: '#blog',
+  //   submenu: [
+  //     { title: 'Classic', href: '/blog/classic' },
+  //     { title: 'Single', href: '/blog/single' },
+  //     { title: 'Grid', href: '/blog/grid' },
+  //   ],
+  // },
+  // { title: 'Contact', href: '/contact' },
+  // {
+  //   title: 'Shop',
+  //   href: '#shop',
+  //   submenu: [
+  //     { title: 'Shop Layout', href: '/shop/layout' },
+  //     { title: 'Shop Details', href: '/shop/detail' },
+  //     { title: 'My Account', href: '/shop/account' },
+  //   ],
+  // },
 ]
 
 const Header = () => {
