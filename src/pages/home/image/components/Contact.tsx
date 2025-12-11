@@ -14,7 +14,7 @@ const Contact = () => {
                 <div className="services-img">
                   <Image width={50} height={50} className="img-fluid" src={spaceship} alt="" />
                 </div>
-                <h6 className="mt-4">4514 West Street Helena</h6>
+                <h6 className="mt-4">Potsdam, NY</h6>
               </div>
             </Col>
             <Col lg={4}>
